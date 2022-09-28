@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    color: white;
+    display: inline;
+    position: fixed;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    height: 50px;
+}
+
+img {
+    width: 200px;
+}
+
+main {
+    height: calc(100vh - 50px - 100px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    width: 1500px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 30px;
+    background-color: darkgray;
+    align-items: center;
+}
+
+button {
+    color: red;
+    padding: 10px;
+    height: 100px;
+}
+
+i {
+    padding: 5px;
+}
+
+.fa-solid .fa-chevron-up {
+    font-size: 20px;
+}
